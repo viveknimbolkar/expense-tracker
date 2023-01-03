@@ -1,0 +1,21 @@
+.exp-transactionlist {
+  margin-top: 30px;
+}
+.exp-transactionlist label{
+    font-weight: 600;
+}
+.exp-transactionlist__list{
+    margin-left: -40px;
+}
+.exp-transactionlist__list .exp-transactionlist__item {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+  height: 40px;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+.exp-transactionlist__list .exp-transactionlist__item button{
+    cursor: pointer;
+}

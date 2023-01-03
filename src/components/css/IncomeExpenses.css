@@ -1,0 +1,25 @@
+.exp-income {
+  display: flex; margin-top: 30px;
+  justify-content: space-around;
+  background-color: white;
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px,
+    rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+  margin-top: 10px;
+  padding: 10px;
+}
+.exp-income__income,
+.exp-income__expense {
+  line-height: 5px;
+  text-transform: uppercase;
+}
+
+.exp-income__income,
+.exp-income__expense p {
+  font-weight: 900;
+}
+.exp-income__income p {
+  color: green;
+}
+.exp-income__expense p {
+  color: red;
+}

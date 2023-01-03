@@ -1,5 +1,8 @@
+body{
+    background-color: aliceblue;
+}
 .main-container{
-    margin-left: 30%;
-    margin-right: 30%;
-    border: 1px solid black;
+    margin-left: 36%;
+    margin-right: 36%;
+    font-family: sans-serif;
 }

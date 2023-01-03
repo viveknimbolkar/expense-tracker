@@ -1,0 +1,24 @@
+.exp-newtransaction{
+    margin-top: 30px;
+    
+}
+.exp-newtransaction__heading{
+    font-weight: 600;
+}
+.exp-newtransaction input[type='text'], input[type='number']{
+    height: 30px;
+    width: 50%;
+    margin-bottom: 10px;
+}
+.exp-newtransaction input[type='button']{
+    background-color: rgb(62, 114, 255);
+    border: none;
+    width: 100%;
+    padding: 10px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+.exp-newtransaction input[type='button']:hover{
+    background-color: rgb(43, 99, 255);
+}

@@ -1,15 +1,16 @@
 import React from "react";
+import './css/IncomeExpenses.css';
 
 export default function IncomeExpenses() {
   return (
     <div className="exp-income">
       <div className="exp-income__income">
-        <h3>Income</h3>
-        <p>$3445.00</p>
+        <h5>Income</h5>
+        <p>Rs. 3445.00</p>
       </div>
       <div className="exp-income__expense">
-        <h3>Expense</h3>
-        <p>$563.00</p>
+        <h5>Expense</h5>
+        <p>Rs. 563.00</p>
       </div>
     </div>
   );
